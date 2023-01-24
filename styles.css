@@ -16,7 +16,6 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    width: 100vw;
     font-size: 18px;
 }
 
@@ -26,7 +25,7 @@ img {
 }
 
 .container {
-    width: 60vw;
+    width: 80vw;
     margin: 0 auto;
 }
 
@@ -37,6 +36,7 @@ header .container {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    gap: 32px;
 }
 
 
@@ -54,7 +54,7 @@ ul {
     font-size: 18px;
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 20px;
 }
 
 .logo {
